@@ -6,14 +6,18 @@ WireGuard и AmneziaWG на Raspberry Pi, а также для управлен�
 ## Что внутри
 
 - `wg-client.sh` — скрипт управления клиентами WireGuard
+- `awg-client.sh` — скрипт управления клиентами AmneziaWG
 - `README wg.md` — пошаговая инструкция по WireGuard на Raspberry Pi
 - `README awg.md` — пошаговая инструкция по AmneziaWG на Raspberry Pi
+- `awg_web.py` — Streamlit‑панель для управления AmneziaWG
+- `README awg_web.dm` — инструкция по развёртыванию веб‑панели
 
 ## Как работать с этим репозиторием
 
 1) Выберите инструкцию под вашу схему:
    - WireGuard: `README wg.md`
    - AmneziaWG: `README awg.md`
+   - Веб‑панель AmneziaWG: `README awg_web.dm`
 2) Следуйте инструкции, чтобы установить и настроить сервер.
 3) После установки используйте скрипт (команды — в инструкции).
 
